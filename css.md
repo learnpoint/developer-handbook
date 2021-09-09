@@ -4,9 +4,9 @@
 
 - CSS files are located in the ```Styles``` folder.
 - CSS files are named with lowercase letters.
-- Multiple words are separated with a dash, for example: ```simple-confirm.css```.
-- Every component, control and pages is styled in its own CSS file.
-- CSS files for controls and pages are prefixed with ```ascx``` and ```aspx```. For example: ```ascx-intership-settings.css```.
+- Multiple words are separated with a dash. For example: ```simple-confirm.css```.
+- Every component, control and page is styled in its own CSS file.
+- CSS files for controls and pages are prefixed with ```ascx``` or ```aspx```. For example: ```ascx-intership-settings.css```.
 
 ## Components and Elements
 
@@ -94,25 +94,6 @@ button {
 }
 ```
 
-## Uppercase and compounding for modifier
-
-```css
-/* GOOD: Uppercase and compounding for modifier. */
-.simple-confirm.OPEN {
-
-}
-
-/* BAD: Lowercase modifier. */
-.simple-confirm.open {
-
-}
-
-/* BAD: Child combinator. */
-.simple-confirm > .OPEN {
-
-}
-```
-
 ## Modifiers should be capitalized and used with compounders
 
 Modifiers defines a type or a state of an element. Modifiers are always capitalized. For example, a button can be of type ```.LARGE``` and have the state ```.ACTIVE```.
@@ -125,12 +106,15 @@ Modifiers must always be selected with compounders. If the element depends on a 
 
 }
 
-/* GOOD: Capitalized modifier with compounder and combinator for element that is outside the scope of the modifier. In this example, the modifier EXPANDED belongs to the component expandable, and the target element belongs to the component grade-panel. */
+/* GOOD: Capitalized modifier with compounder and combinator for element
+   that is outside the scope of the modifier. In this example, the modifier
+   EXPANDED belongs to the component expandable, and the target element
+   belongs to the component grade-panel. */
 .grade-panel.EXPANDED .grade-panel__title {
 
 }
 
-/* BAD: Selector is not specific enough . Risk of selecting unintended element. */
+/* BAD: Selector is not specific enough. Risk of selecting unintended elements. */
 .EXPANDED .grade-panel__title {
 
 }
