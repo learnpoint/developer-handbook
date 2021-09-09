@@ -1,12 +1,26 @@
 # CSS Guidelines
 
-## CSS files
+## Naming CSS files
 
 - CSS files are located in the ```Styles``` folder.
 - CSS files are named with lowercase letters.
 - Multiple words are separated with a dash. For example: ```simple-confirm.css```.
 - Every component, control and page is styled in its own CSS file.
 - CSS files for controls and pages are prefixed with ```ascx``` or ```aspx```. For example: ```ascx-intership-settings.css```.
+
+## Including CSS files
+
+CSS files for controls and pages must be explicitly included. This is done like so:
+
+1. Declare the CSS file in ```Code/Stylesheet/Includes.vb```.
+2. Include the CSS file in the load handler in code behind of the control or page:
+    ```vb
+    Private Sub LoadHandler(...) Handles Me.Load
+        Stylesheet.Includes.Add(Stylesheet.Includes.ASCX_GRADING, Me)
+    End Sub
+    ```
+
+CSS files for components are includes in the same way. Except for those that are very commonly used, like ```button``` or ```flash-message```. They should always be available and therefore included directly in the master page.
 
 ## Components and Elements
 
