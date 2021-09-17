@@ -20,7 +20,7 @@ CSS files for controls and pages must be explicitly included. This is done like 
     End Sub
     ```
 
-CSS files for components are includes in the same way. Except for those that are very commonly used, like ```button``` or ```flash-message```. They should always be available and therefore included directly in the master page.
+CSS files for components are included in the same way. Except for those that are very commonly used, like ```button``` or ```flash-message```. They should always be available and therefore included directly in the master page.
 
 ## Components and Elements
 
