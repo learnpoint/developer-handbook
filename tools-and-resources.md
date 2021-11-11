@@ -10,15 +10,21 @@
 * [Colordot](https://color.hailpixel.com/) - A color picker
 * [Real Favicon Generator](https://realfavicongenerator.net/) - Perfect icons on all browsers
 
-## Resources
+## Images
 * [Pexels](https://www.pexels.com/) - Free stock photos
 * [Unsplash](https://unsplash.com/) - Beautiful Free Images
+
+## Icons
 * [Bootstrap Icons](https://icons.getbootstrap.com/) - SVG icon library
 * [Heroicons](https://heroicons.com/) - SVG icons
 * [Feathericons](https://feathericons.com/) - feather SVG icons
 * [Octicons](https://octicons-primer.vercel.app/octicons/) - GitHub's icons
+
+## Emojis
 * [Emojipedia](https://emojipedia.org/) - Home of Emojis
 * [Twemoji](https://twemoji.twitter.com/) - Twitters open source emojis for everyone
+
+## HTML Symbols
 * [HTML Symbols](https://www.htmlsymbols.xyz/) - Unicode symbols, entities and codes
 * [Lorem Ipsum Generate](https://loremipsum.io/generator/?n=5&t=p) - Generate Lorem Ipsum text
 
