@@ -26,7 +26,6 @@
 
 ## HTML Symbols
 * [HTML Symbols](https://www.htmlsymbols.xyz/) - Unicode symbols, entities and codes
-* [Lorem Ipsum Generate](https://loremipsum.io/generator/?n=5&t=p) - Generate Lorem Ipsum text
 
 ## Resources of Resources
 * [Design Resources for Developers](https://github.com/bradtraversy/design-resources-for-developers) - Curated list of resources
