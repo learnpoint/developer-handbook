@@ -24,7 +24,7 @@
 ## HTML Symbols
 * [HTML Symbols](https://www.htmlsymbols.xyz/) - Unicode symbols, entities and codes
 
-## Images
+## Photos
 * [Pexels](https://www.pexels.com/) - Free stock photos
 * [Unsplash](https://unsplash.com/) - Beautiful Free Images
 
