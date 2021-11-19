@@ -61,9 +61,9 @@ btnSave.addEventListener('click', event => {
 ```
 
 
-## Store event handlers in document element
+## Store event handlers in document
 
-Event handler should be stored in the document element. Use capturing for events that don't bubble:
+Event handler should be stored in the document. For events that don't bubble, use capturing:
 
 ```js
 // GOOD:
@@ -76,7 +76,7 @@ saveButton.addEventListener('focus', event => { ... });
 
 ## Happy Path
 
-Left align the main flow and indent exceptions:
+Main flow should be left aligned. Indent the exceptions:
 
 ```js
 // GOOD:
@@ -98,7 +98,7 @@ if (res.ok) {
 
 ## Explain through code
 
-Use expanatory variables instead of comments:
+Use expanatory variable names instead of comments:
 
 ```js
 // GOOD:
@@ -116,10 +116,10 @@ if (items.length > 100) { /* Paginate items when more than 100. */
 
 ## Use modern JavaScript
 
-* Use let and const instead of var.
-* Use fetch insted of XMLHTTPRequest.
-* Use classList instead of className.
+* Use let and const instead of var
+* Use fetch insted of XMLHTTPRequest
+* Use classList instead of className
 * Use querySelector* instead of getElementBy*
-* Use for...of when iterating NodeLists.
-* Use arrow syntax when passing functions.
-* Use map, reduce, forEach, etc on arrays.
+* Use for...of when iterating NodeLists
+* Use arrow syntax when passing functions
+* Use map, reduce, forEach, etc on arrays
