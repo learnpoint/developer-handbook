@@ -1,18 +1,15 @@
 # Tools and Resources
 
 ## Tools
-* [Fakepoint](https://api.fakepoint.net/) - REST API with fake data for prototyping
 * [Piko](https://github.com/learnpoint/piko) - Minimal toolkit for html writing
+* [Draft](https://github.com/learnpoint/draft) - Template for Learnpoint design drafts
 * [BrowserFrame](https://browserframe.com/) - Wrap screenshots in browser frames
-* [Excalidraw](https://excalidraw.com/) - Whiteboard tool for sketching diagrams
+* [Excalidraw](https://excalidraw.com/) - Whiteboard for sketching
 * [Desmos Calculator](https://www.desmos.com/calculator) - Online Graphing Calculator
 * [Figma](https://www.figma.com/) - Collaborative design tool
 * [Colordot](https://color.hailpixel.com/) - A color picker
 * [Real Favicon Generator](https://realfavicongenerator.net/) - Perfect icons on all browsers
-
-## Images
-* [Pexels](https://www.pexels.com/) - Free stock photos
-* [Unsplash](https://unsplash.com/) - Beautiful Free Images
+* [ShareX](https://getsharex.com/) - Screen Capture Tool
 
 ## Icons
 * [Bootstrap Icons](https://icons.getbootstrap.com/) - SVG icon library
@@ -26,6 +23,10 @@
 
 ## HTML Symbols
 * [HTML Symbols](https://www.htmlsymbols.xyz/) - Unicode symbols, entities and codes
+
+## Images
+* [Pexels](https://www.pexels.com/) - Free stock photos
+* [Unsplash](https://unsplash.com/) - Beautiful Free Images
 
 ## Resources of Resources
 * [Design Resources for Developers](https://github.com/bradtraversy/design-resources-for-developers) - Curated list of resources
