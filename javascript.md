@@ -21,3 +21,105 @@ JavaScript files for controls and pages must be explicitly included. This is don
     ```
 
 JavaScript files for components are included in the same way. Except for those that are very commonly used, like ```simple-confirm``` or ```flash-message```. They should always be available and therefore included directly in the master page.
+
+
+## Don't pollute global namespace
+
+Always wrap code in anonymous functions:
+
+
+```js
+ // GOOD:
+ (function() {
+     const size = 5;
+ })();
+
+ // BAD:
+const size = 5;
+```
+
+
+## Avoid DOM state
+
+Don't store DOM elements in variables outside event handlers. You never know when DOM content might change.
+
+```js
+// GOOD:
+document.addEventListener('click', event => {
+    if (event.target.matches('.save')) {
+        console.log('Save');
+    }
+});
+
+
+// BAD:
+const btnSave = document.querySelector('.save');
+
+btnSave.addEventListener('click', event => {
+    console.log('Save');
+});
+```
+
+
+## Store event handlers in document element
+
+Event handler should be stored in the document element. Use capturing for events that don't bubble:
+
+```js
+// GOOD:
+document.addEventListener('focus', event => { ... }, true);
+
+// BAD:
+saveButton.addEventListener('focus', event => { ... });
+```
+
+
+## Happy Path
+
+Left align the main flow and indent exceptions:
+
+```js
+// GOOD:
+const res = getSomething();
+if (!res.ok) {
+    return res.err;
+}
+console.log(res.message);
+
+// BAD:
+const res = getSomething();
+if (res.ok) {
+    console.log(res.message);
+} else {
+    return res.err;
+}
+```
+
+
+## Explain through code
+
+Use expanatory variables instead of comments:
+
+```js
+// GOOD:
+const maxItemsOnPage = 100;
+if (items.length > maxItemsOnPage) {
+    paginate(items);
+}
+
+// BAD:
+if (items.length > 100) { /* Paginate items when more than 100. */
+    paginate(items);
+}
+```
+
+
+## Use modern JavaScript
+
+* Use let and const instead of var.
+* Use fetch insted of XMLHTTPRequest.
+* Use classList instead of className.
+* Use querySelector* instead of getElementBy*
+* Use for...of when iterating NodeLists.
+* Use arrow syntax when passing functions.
+* Use map, reduce, forEach, etc on arrays.
