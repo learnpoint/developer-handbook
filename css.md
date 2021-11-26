@@ -241,3 +241,11 @@ Learnpoint have a built in view mode with two states: ```is-mobile``` and ```is-
     font-size: 12px;
 }
 ```
+
+## Use safe line-height inside overflow:hidden
+
+Letters like ```g``` will overflow the linebox when line-height is set to 1. If overflow is set to hidden, such letters would be clipped.
+
+Using ```line-height: 1.3``` is typically safe for most letters.
+
+If the containing box have overflow:visible (default), you can safely use ```line-height: 1``` without risking clipped letters.
