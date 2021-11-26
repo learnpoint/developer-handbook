@@ -129,4 +129,4 @@ if (items.length > 100) { /* Paginate items when more than 100. */
 
 When you need to use the size or position of an element, be aware of css transitions and transforms.
 
-For instance, accessing ```el.width``` will (force layout and) return the current rendered width of the element. If you just added the element to the document, it might be in the middle of a transition that changes the width.
+For instance, accessing ```el.width``` will (force layout and) return the current rendered width of the element. If you just added the element to the dom, it might be in the middle of a css transition that changes the width using a scale transform.
