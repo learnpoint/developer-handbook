@@ -134,9 +134,9 @@ Modifiers must always be selected with compounders. If the element depends on a 
 }
 ```
 
-## Use view mode instead of media queries
+## Use view modes instead of media queries
 
-Learnpoint have a built in view mode with two states: ```is-mobile``` and ```is-desktop```. The view mode is available at the root element. Use the view mode instead of media queries.
+Learnpoint has three different view modes: desktop, mobile, and print. Every page should be designed with all three view modes taken into account. The view mode is available as a class on the root element. Use that class instead of media queries. 
 
 ```css
 /* GOOD: Using the view mode. */
@@ -146,6 +146,11 @@ Learnpoint have a built in view mode with two states: ```is-mobile``` and ```is-
 
 /* GOOD: Using the view mode. */
 .is-desktop .avatar {
+
+}
+
+/* GOOD: USing the view mode. */
+.print .avatar {
 
 }
 
@@ -244,8 +249,8 @@ Learnpoint have a built in view mode with two states: ```is-mobile``` and ```is-
 
 ## Use safe line-height inside overflow:hidden
 
-Characters like ```g``` will overflow the linebox when line-height is set to 1. If overflow is set to hidden, such characters will be clipped. Not good.
+Characters like ```g``` will overflow the linebox when line-height is set to 1. If overflow is hidden, such characters are clipped. Not good.
 
-Using ```line-height: 1.3``` is typically safe.
+Using ```line-height: 1.3``` is usually safe.
 
-If the containing box has ```overflow: visible``` (default), characters will not be clipped. In those situations you don't need to worry about character clipping.
+(If the containing box has ```overflow: visible``` (default), characters will not be clipped. In those situations you don't need to worry about line-height or character clipping.)
