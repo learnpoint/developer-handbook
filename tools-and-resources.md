@@ -1,7 +1,7 @@
 # Tools and Resources
 
 ## Tools
-* [Piko](https://github.com/learnpoint/piko) - Minimal toolkit for html writing
+* [Piko](https://github.com/learnpoint/piko) - Toolkit for Learnpoint Developers
 * [Draft](https://github.com/learnpoint/draft) - Template for Learnpoint design drafts
 * [BrowserFrame](https://browserframe.com/) - Wrap screenshots in browser frames
 * [Excalidraw](https://excalidraw.com/) - Whiteboard for sketching
