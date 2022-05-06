@@ -15,7 +15,7 @@
 * [Bootstrap Icons](https://icons.getbootstrap.com/) - SVG icon library
 * [Heroicons](https://heroicons.com/) - SVG icons
 * [Feathericons](https://feathericons.com/) - feather SVG icons
-* [Octicons](https://octicons-primer.vercel.app/octicons/) - GitHub's icons
+* [Octicons](https://primer.github.io/octicons/) - GitHub's icons
 
 ## Emojis
 * [Emojipedia](https://emojipedia.org/) - Home of Emojis
