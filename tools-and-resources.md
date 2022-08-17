@@ -10,6 +10,7 @@
 * [Colordot](https://color.hailpixel.com/) - A color picker
 * [Real Favicon Generator](https://realfavicongenerator.net/) - Perfect icons on all browsers
 * [ShareX](https://getsharex.com/) - Screen Capture Tool
+* [ScreenToGif](https://www.screentogif.com/) - Free screen recorder tool
 
 ## Icons
 * [Bootstrap Icons](https://icons.getbootstrap.com/) - SVG icon library
