@@ -17,6 +17,7 @@
 * [Heroicons](https://heroicons.com/) - SVG icons
 * [Feathericons](https://feathericons.com/) - feather SVG icons
 * [Octicons](https://primer.github.io/octicons/) - GitHub's icons
+* [Noun Project](https://thenounproject.com/) - Icons for everything
 
 ## Emojis
 * [Emojipedia](https://emojipedia.org/) - Home of Emojis
