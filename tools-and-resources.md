@@ -15,9 +15,13 @@
 ## Icons
 * [Bootstrap Icons](https://icons.getbootstrap.com/) - SVG icon library
 * [Heroicons](https://heroicons.com/) - SVG icons
+* [Heroicons Dev](https://heroicons.dev/) - SVG icons
 * [Feathericons](https://feathericons.com/) - feather SVG icons
 * [Octicons](https://primer.github.io/octicons/) - GitHub's icons
-* [Noun Project](https://thenounproject.com/) - Icons for everything
+* [System UIcons](https://systemuicons.com/) - SVG icons
+* [Iconic](https://iconic.app/) - SVG icons
+* [Boxicons](https://boxicons.com/) - SVG icons
+
 
 ## Emojis
 * [Emojipedia](https://emojipedia.org/) - Home of Emojis
