@@ -21,6 +21,7 @@
 * [System UIcons](https://systemuicons.com/) - SVG icons
 * [Iconic](https://iconic.app/) - SVG icons
 * [Boxicons](https://boxicons.com/) - SVG icons
+* [Hugeicons](https://hugeicons.com/) - SVG icons
 
 
 ## Emojis
