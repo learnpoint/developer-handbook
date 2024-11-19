@@ -1,26 +1,26 @@
-# JavaScript Guidelines
+# Javascript Guidelines
 
-## Naming JavaScript files
+## Naming Javascript files
 
-- JavaScript files are located in the ```Scripts``` folder.
-- JavaScript files are named with lowercase letters.
+- Javascript files are located in the ```Scripts``` folder.
+- Javascript files are named with lowercase letters.
 - Multiple words are separated with a dash. For example: ```simple-confirm.js```.
-- Every component, control and page is coded in its own JavaScript file.
-- JavaScript files for controls and pages are prefixed with ```ascx``` or ```aspx```. For example: ```ascx-intership-settings.js```.
+- Every component, control and page is coded in its own Javascript file.
+- Javascript files for controls and pages are prefixed with ```ascx``` or ```aspx```. For example: ```ascx-intership-settings.js```.
 
-## Including JavaScript files
+## Including Javascript files
 
-JavaScript files for controls and pages must be explicitly included. This is done like so:
+Javascript files for controls and pages must be explicitly included. This is done like so:
 
-1. Declare the JavaScript file in ```Code/Javascript/Includes.vb```.
-2. Include the JavaScript file in the load handler in code behind of the control or page:
+1. Declare the Javascript file in ```Code/Javascript/Includes.vb```.
+2. Include the Javascript file in the load handler in code behind of the control or page:
     ```vb
     Private Sub LoadHandler(...) Handles Me.Load
         Javascript.Includes.Add(Javascript.Includes.ASCX_GRADING, Me)
     End Sub
     ```
 
-JavaScript files for components are included in the same way. Except for those that are very commonly used, like ```simple-confirm``` or ```flash-message```. They should always be available and therefore included directly in the master page.
+Javascript files for components are included in the same way. Except for those that are very commonly used, like ```simple-confirm``` or ```flash-message```. They should always be available and therefore included directly in the master page.
 
 
 ## Don't pollute global namespace
@@ -29,12 +29,12 @@ Always wrap code in anonymous functions:
 
 
 ```js
- // GOOD:
- (function() {
-     const size = 5;
- })();
+// GOOD:
+(function() {
+    const size = 5;
+})();
 
- // BAD:
+// BAD:
 const size = 5;
 ```
 
@@ -114,7 +114,7 @@ if (items.length > 100) { /* Paginate items when more than 100. */
 ```
 
 
-## Use modern JavaScript
+## Use modern Javascript
 
 * Use let and const instead of var
 * Use fetch insted of XMLHTTPRequest
