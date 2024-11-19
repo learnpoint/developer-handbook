@@ -22,7 +22,7 @@
 * [Iconic](https://iconic.app/) - SVG icons
 * [Boxicons](https://boxicons.com/) - SVG icons
 * [Hugeicons](https://hugeicons.com/) - SVG icons
-* [Lucide]((https://lucide.dev/) - SVG icons
+* [Lucide](https://lucide.dev/) - SVG icons
 
 ## Emojis
 * [Emojipedia](https://emojipedia.org/) - Home of Emojis
